@@ -1,9 +1,9 @@
 import React from 'react'
 
-function InputField({itemEvent, addItems, index}) {
+function InputField({itemEvent, addItems, id}) {
   return (
     <>
-    <input type="text" placeholder="Add items" onChange={itemEvent} value={addItems} key={index} />
+    <input type="text" placeholder="Add items" onChange={itemEvent} value={addItems} key={id} />
 
     </>
   )

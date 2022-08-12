@@ -40,7 +40,7 @@ function App() {
         <br/>     {/* Line Break*/}
         <Heeading />
         <br/> 
-         <InputField onChange={itemEvent} value={addItems}   /> 
+        <input type="text" placeholder="Add items" onChange={itemEvent} value={addItems} />
          <button onClick={listOfItems}> + </button> 
          <ol>
            {/* <li>{addItems}</li> */}
